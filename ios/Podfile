@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+#inhibit_all_warnings!
+
+def common
+	pod 'WeexSDK'
+	pod 'WeexPluginLoader'
+	pod 'MBProgressHUD', '~> 0.9.1'
+	pod 'libqrencode', '~> 3.4.2'
+end
+
+target 'WeexBaofu' do
+    common
+end
+
+

@@ -1,0 +1,6 @@
+framework module BaofooWebchatPaySDK {
+  umbrella header "BaofooWebchatPaySDK.h"
+
+  export *
+  module * { export * }
+}
